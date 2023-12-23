@@ -1,0 +1,85 @@
+body {
+  background-color: #f9f7fe;
+}
+.body {
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px #41326414;
+  border-radius: 16px;
+  padding: 30px;
+
+  font-family: "Roboto", sans-serif;
+}
+.SearchInput {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.submitButtom {
+  background: #885df1;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+header {
+  border-bottom: 2px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
+#city {
+  margin: 0;
+  font-size: 36px;
+  line-height: 46px;
+}
+#weatherdetails {
+  font-size: 16px;
+  color: #27214266;
+  line-height: 25px;
+  font-weight: 400;
+}
+strong {
+  color: red;
+}
+.temperature {
+  display: flex;
+  justify-content: space-between;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+main {
+  padding: 40px 0;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #00000099;
+}
+a {
+  color: #885df1;
+}
+change {
+  display: flex;
+}
+.weathericon {
+  width: 50px;
+  height: 50px;
+}
+#temperaturechange {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.unit {
+  margin-top: 50px;
+  font-size: 50px;
+}
