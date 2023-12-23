@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Meteo App</title>
+  </head>
+  <body>
+    <div class="body">
+      <header>
+        <form id="searchform">
+          <input
+            type="text"
+            placeholder="Enter a city"
+            required
+            class="SearchInput"
+            id="SearchInput"
+          />
+          <input type="submit" value="Search" class="submitButtom" />
+        </form>
+      </header>
+      <main>
+        <div class="temperature">
+          <div>
+            <h1 id="city"></h1>
+            <div id="weatherdetails">
+              <div>
+                <span id="time"> </span>,
+                <span id="description"></span>
+              </div>
+              <div>
+                Humidity:<strong id="humidity"></strong>,Wind:<strong
+                  id="wind"
+                ></strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="change">
+            <span id="temperatureicon"></span>
+            <span id="temperaturechange"></span>
+            <span class="unit">&deg;c</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          this project was coded by
+          <a href="https://github.com/mahoro-belyse" target="_blank"
+            >Uwase.M.Belyse</a
+          >
+          is
+          <a href="" target="_blank">opened-sourced on Github</a>
+          and
+          <a href="" target="_blank">hosted on Netflify.</a>
+        </p>
+      </footer>
+      <script src=""></script>
+    </div>
+  </body>
+</html>
