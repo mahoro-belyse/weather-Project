@@ -1,8 +1,8 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #f2a1e4;
 }
 .body {
-  background: white;
+  background: #f6e8e7;
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px #41326414;
@@ -20,7 +20,7 @@ body {
   padding: 15px 20px;
 }
 .submitButtom {
-  background: #885df1;
+  background: #f090d8;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -65,7 +65,7 @@ footer {
   color: #00000099;
 }
 a {
-  color: #885df1;
+  color: #e97dc8;
 }
 change {
   display: flex;
